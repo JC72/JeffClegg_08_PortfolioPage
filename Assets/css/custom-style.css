@@ -59,6 +59,12 @@ article {
     font-weight: bold;
 }
 
+#btnDeploy {
+    background-color: darkgray;
+    font-weight: bold;
+    padding: 5px;
+}
+
 img {
     max-width: 100%;
 }
