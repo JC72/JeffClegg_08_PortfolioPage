@@ -6,7 +6,7 @@
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <title>Jeff Clegg|About</title>
+      <title>Jeff Clegg|Projects</title>
 
       <!--Bootstrap CSS-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -45,6 +45,9 @@
                   <li class="nav-item">
                   <a class="nav-link" href="projects.html">Projects</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
                   <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact Me</a>
                   </li>
@@ -92,9 +95,10 @@
                       the user would be given their score and allow to enter their name in the high scores
                       table.
                     </p>
-                    <button id="btnDeploy4"><i class="fa fa-globe"></i> Visit Website</button>
-                    <a id="deployLink" href ="https://jc72.github.io/JeffClegg_04_CodeQuiz/">Give It a Try!</a>
-                </article>
+
+                    <button class = "btnDeploy" id="btnDeploy4"><i class="fa fa-globe"></i> Visit Website</button>
+                    <button class = "btnMinfo" id = "btnMoreInfo4"><i class = "fa fa-info-circle"></i>More Info</button>
+                  </article>
             
             </div>
         </section>
@@ -115,14 +119,16 @@
                   <h3 class = "ProjectTitle">Workday Scheduler</h3>
               
                   <p id = "projectDescriptions">This project was undertaken to create a site to give
-                    the user an experience of taking a quiz of several questions.  In which completing
-                    the quiz it would tell the user if the answer was correct or incorrect.  If incorrect
-                    the quiz then would give the correct answer and move to the next question.  Upon completion
-                    the user would be given their score and allow to enter their name in the high scores
-                    table.
+                    the user an application where they could create a hourly scheduler to plot out their
+                    activities for the current day.  It generates working hours from 6:00 am through 6:00 pm along
+                    with input boxes to enter that time slot's activity.  Then it gives the user the option to save
+                    the activity in local storage so when they refresh the site it will be retained.  Also the site
+                    color codes the hour time slots by past, current and future.
                   </p>
-                  <button id="btnDeploy5"><i class="fa fa-globe"></i> Visit Website</button>
-                  <a id="deployLink" href ="https://jc72.github.io/JeffClegg_05_WorkDayScheduler/">Give It a Try!</a>
+
+                  <button class = "btnDeploy" id="btnDeploy5"><i class="fa fa-globe"></i> Visit Website</button>
+                  <button class = "btnMinfo" id = "btnMoreInfo5"><i class = "fa fa-info-circle"></i>More Info</button>
+
               </article>
           
           </div>
@@ -150,8 +156,10 @@
                     the user would be given their score and allow to enter their name in the high scores
                     table.
                   </p>
-                  <button id="btnDeploy6"><i class="fa fa-globe"></i> Visit Website</button>
-                  <a id="deployLink" href ="https://jc72.github.io/JeffClegg_06_WeatherDashboard/">Give It a Try!</a>
+
+                  <button class = "btnDeploy" id="btnDeploy6"><i class="fa fa-globe"></i> Visit Website</button>
+                  <button class = "btnMinfo" id = "btnMoreInfo6"><i class = "fa fa-info-circle"></i>More Info</button>
+
               </article>
           
           </div>
@@ -179,8 +187,10 @@
                     the user would be given their score and allow to enter their name in the high scores
                     table.
                   </p>
-                  <button id="btnDeploy1"><i class="fa fa-globe"></i> Visit Website</button>
-                  <a id="deployLink" href ="https://emilyah-01.github.io/Brew_Hopper">Give It a Try!</a>
+
+                  <button class = "btnDeploy" id="btnDeploy1"><i class="fa fa-globe"></i> Visit Website</button>
+                  <button class = "btnMinfo" id = "btnMoreInfo1"><i class = "fa fa-info-circle"></i>More Info</button>
+
               </article>
           
           </div>
@@ -209,7 +219,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <!--Bootstrap-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+<script src="Assets/js/projectLinks.js"></script>
 
   </body>
 </html>

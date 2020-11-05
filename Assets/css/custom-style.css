@@ -59,8 +59,14 @@ article {
     font-weight: bold;
 }
 
-#btnDeploy {
+.btnDeploy {
     background-color: darkgray;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.btnMinfo {
+    background-color: lime;
     font-weight: bold;
     padding: 5px;
 }
@@ -73,6 +79,10 @@ img {
 .caption {    
     color: #1a5303;
     text-align: center;
+}
+
+#resumeFrm {
+    background: transparent;
 }
 
 /*footer CSS for all footers*/
@@ -111,6 +121,61 @@ footer {
     background-color: #f4f8f200;
     color: #1a5303;
     font-size: 18px;
-
-
 }
+
+.pdfobject-container {
+    height: 30rem;
+    border: 1rem solid rgba(0,0,0,.1);
+}
+
+.contactContainer {
+    padding: 10px;
+    justify-content: center;
+}
+
+.rowCenter {
+    padding: 10px;
+    justify-content: center;
+    display: inline-flex;
+}
+
+
+.contact-card {
+    flex-direction: row;
+    justify-content: center;
+    margin: 4px;
+    border-radius: 10px;
+    width: 30rem;
+    background-color: lightgray;
+    padding: 5px;
+    
+}
+
+.contactLabel {
+    text-align: center;
+    color:black;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    position: relative;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color:black;
+}
+
+i {
+    font-size: 2rem;
+    padding: 2px;
+    margin-right: 5px;
+   display: inline-block;
+}
+
