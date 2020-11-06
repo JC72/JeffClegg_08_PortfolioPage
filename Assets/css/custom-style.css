@@ -187,7 +187,17 @@ i {
     justify-content: center;
 }
 
+.btn-light{
+    height: auto;
+    width: 200px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
 
+#descriptions {
+    color: black;
+}
 #indCard {
     background-color: white;
     display: inline-flex;
