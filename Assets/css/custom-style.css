@@ -138,15 +138,14 @@ footer {
 }
 
 .iframeContainer {
-    width: 25%;
-    min-width: 325px;
-    max-width: 480px;
+    
+    max-width: 100%;
 }
 
 .relativeDiv {
     position: relative;
     padding-bottom: 133%;
-    box-sizing: border-box;
+    
 }
 
 object {
