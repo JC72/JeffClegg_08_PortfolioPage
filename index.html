@@ -10,8 +10,18 @@
 
       <!--Bootstrap CSS-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      
+       <!-- Link to Font Awesome icons used -->
+       <link
+       rel="stylesheet"
+       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+       crossorigin="anonymous"
+     />
+      
       <link rel="stylesheet" type="text/css" href="Assets/css/custom-style.css"/>
-  </head>
+       
+    </head>
 
   <body>
 
@@ -51,15 +61,18 @@
       <!-- End Nav -->
 
       <br>
-      <!--Main body of the About Me Page-->
+      <!--Main body of the Home Page-->
 
-      <!--About Me Header-->
+      <!--Home Header-->
 
       <main class = "container">
         <header class = "row justify-content-center">
           <div class = "col-md-8">
             <div class = "page-header1">
-              <h1><strong>About Me</strong></h1>
+              <h1><strong>Jeffrey M. Clegg</strong></h1>
+              <h3>Full Stack Developer</h3>
+              <br>
+              <h5> Professional Portfolio</h5>
             </div>
           </div>
         </header>
@@ -67,43 +80,35 @@
           <!--first row and 2 columns to store pictures-->
         <section id = "paragraph" class = "row justify-content-center">
 
-          <!--Photo of me-->
-          <!-- <div class = "col-md-4">
-                  <img src="Assets/images/MomandDad.jpg" alt="PesonalPhoto" class ="img img-thumbnail"> 
-          </div> -->
+          <div id = "directCards" class ="col md-12">
 
           <!--Paragraph on a little about me-->
-          <div class="col-md-8">
+            <div id = "indCard" class="col-md-2">
+                <div class = "dirCards">
+                  <a href = "about.html"><i class = "fa fa-user-alt"></i></a>
+                  <h5 class = "center">
+                    <a href = "about.html">About</a>
+                  </h5>
+                </div>      
+            </div>
 
-            <p id = "about">
-              My name is Jeff Clegg and I am 48 years old.  I was born and raised in Toledo, Ohio and now reside in Livonia, Michigan.  I have been married
-              to my wife Heather for 18 years an we have two sons.  Kellan is 17 and Keaton is 13 years of age.  
-            </p>
-            
-            <p id = "about">I went to high school at Whitmer in Toledo, Ohio.  Then attended and graduated from the University of Toledo with a Bachelor's degree in Construction Engineering and a associates degeree in
-              Architectural Technology.  I am currently pursuing my certificate in coding thru Michigan State University.
-                          </p>
-            
-            <p id = "about">I have 22+ years as CAD Manager as well as a CAD Technician in the architectural and manufacturing sectors.
-              Throuout my career, i have been recognized for demonstrating independent discipline,
-              flexibility, and a customer-oriented attitude.  Professional focal points include scheduling, data entry, web
-              formatting, proofreading/editing, cross-functional team leadership, complex problem-solving, 
-              and client relationship management.  
-            </p>
-
-            <p class="about">I am interested in learning about new opportunities and can
-              be reached
-              through this portfolio, by
-              email:
-              <a id = "links" href="jeffclegg@att.net"
-                  target="_blank">jeffclegg@att.net, </a> through<a id = "links"
-                  href="https://github.com/JC72"> GitHub</a>, or through <a id = "links"
-                  href="https://www.linkedin.com/in/jeffrey-clegg-3058461b0/">
-                  LinkedIn.</a>
-              </p>
-
+            <div id = "indCard" class="col-md-2">
+              <div class = "dirCards">
+                <a href = "projects.html"><i class = "fa fa-user-alt"></i></a>
+              </div>      
           </div>
 
+          <div id = "indCard" class="col-md-2">
+            <div class = "dirCards">
+              <a href = "resume.html"><i class = "fa fa-user-alt"></i></a>
+            </div>      
+        </div>
+        <div id = "indCard" class="col-md-2">
+          <div class = "dirCards">
+            <a href = "contact.html"><i class = "fa fa-user-alt"></i></a>
+          </div>      
+        </div>
+      </div>
         </section>
 
       </main>
