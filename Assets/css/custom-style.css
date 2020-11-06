@@ -21,6 +21,14 @@ body {
 }
 
 
+#paragraph {
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+#links {
+    color: yellow;
+}
+
 p {
     font-size: 2vh, 2vw;
     color: ghostwhite;
@@ -145,7 +153,6 @@ footer {
     justify-content: center;
     margin: 4px;
     border-radius: 10px;
-    width: 30rem;
     background-color: lightgray;
     padding: 5px;
     
