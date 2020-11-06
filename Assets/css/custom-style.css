@@ -11,7 +11,14 @@ body {
     background-attachment: fixed;
     background-size:cover;
 }
+
+#title2 {
+    text-align: left;
+}
  
+#linktext {
+    text-align: left;
+}
 /*main style for About Me page*/
 
 /*color for header Contact*/
@@ -20,6 +27,12 @@ body {
     background-color: rgba(0, 0, 0, 0.493);
     color: ghostwhite;
     text-align: center;
+}
+
+.page-header2 {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: ghostwhite;
+    text-align: left;
 }
 
 #paragraph {
